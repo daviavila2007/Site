@@ -1,0 +1,47 @@
+
+@font-face{
+    font-family: 'skrank';
+    src: url('OFL.txt') format('opentype'), url('Skranji-Regular.ttf') format('truetype');
+    font-size: normal;
+    font-style: normal;
+}
+body{
+    background-image: url(../Jackson/20215.jpg);
+    background-size: cover;
+    height: 95vh;
+    width: 95vw;
+    font-size: x-large;
+    -webkit-text-fill-color: #AD0300;
+    align-items: center;
+    text-align: center;
+    font-family: 'skrank';
+}
+.div{
+    border: solid;
+    border-color: #E51200;
+    width: 300px;
+    height: 230px;
+    margin: 0 auto;
+    border-width: 1px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgb(61, 60, 60), rgb(0, 0, 0));
+    font-weight: 800;
+}
+input{
+    width: 200px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: small;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255));
+}
+button{
+    width: 100px;
+    border-radius: 5px;
+    font-size: small;
+    background-color: rgb(15, 4, 4);
+    border-color: #E51200;
+}
+a{
+    font-size: medium;
+    -webkit-text-fill-color: #ffffff;
+}

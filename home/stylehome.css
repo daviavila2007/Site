@@ -1,0 +1,25 @@
+@font-face{
+    font-family: 'skrank';
+    src: url('OFL.txt') format('opentype'), url('Skranji-Regular.ttf') format('truetype');
+    font-size: normal;
+    font-style: normal;
+}
+body{
+    background-image: url(../20215.jpg);
+    background-size: cover;
+    height: 95vh;
+    width: 95vw;
+    font-size: x-large;
+    -webkit-text-fill-color: #AD0300;
+    align-items: center;
+    text-align: center;
+    font-family: 'skrank';
+}
+button{
+    width: 100px;
+    border-radius: 5px;
+    font-size: small;
+    background-color: #000000;
+    border-color: #E51200;
+}
+
